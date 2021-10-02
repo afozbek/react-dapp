@@ -27,7 +27,7 @@ module.exports = {
   networks: {
     hardhat: {},
     kovan: {
-      url: "https://kovan.infura.io/v3/454449c6b6214024bfff3f28f00aff66",
+      url: process.env.REACT_APP_INFURA_APP_URL,
       accounts: [`0x${process.env.REACT_APP_ACCOUNT_PRIVATE_KEY}`]
     }
   },
