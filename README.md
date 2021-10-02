@@ -13,3 +13,7 @@ npx hardhat node
 node scripts/sample-script.js
 npx hardhat help
 ```
+
+## Smart Contract Address
+
+https://kovan.etherscan.io/address/0xe98587C08e712Bf491F545ecA42A4ab36A18650a
